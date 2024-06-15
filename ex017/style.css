@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+
+
+}
+body
+{ background-image: linear-gradient( to right, rgb(177, 177, 255), pink);
+
+
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #805444b0 ;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+   background-color: white;
+   border-radius: 10px;
+
+}
+p{
+    text-align: justify;
+
+
+}
+h3{
+    background-color: white;
+    height: 85px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 6px 6px 25px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sombras</title>
+    <style>
+
+      #bola{
+         background-color: aliceblue;
+         width: 100px;
+         height: 100px;
+         margin: 10px auto;
+         border-radius: 50%;
+          box-shadow: inset 10px 10px 10px 20px ;
+          animation: float 3s ease-in-out infinite;
+          @keyframes float{
+            0%{
+               transform: translateY(0)
+               50%{
+                  transform: translateY(-25px)
+                  100%{
+                     transform: translateY (0)
+                  }
+               }
+            }
+          }
+      }
+     body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(250, 234, 214);
+        padding-left: 10px;
+        margin: 10px;
+     }
+     header{
+        background-color: white;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin:  10px; 
+
+        
+     }
+     main{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin: 10px;
+        border: 10px;
+        
+     }
+     article{
+        background-color: white;
+        border-radius: 5px;
+        
+     }
+     article>aside{
+
+        
+     }
+     
+     nav{
+        background-color: white;
+        
+     }
+     nav>a{
+        color: rgb(29, 29, 30);
+        
+     }
+     aside{
+        background-color: grey;
+        
+        color: white;
+        text-align: left;
+        
+     }
+     aside>p{
+    text-align: left;
+     }
+     footer{
+        background-color: rgb(163, 159, 159);
+        margin: 0px;
+        text-align: center;
+     }
+     
+
+    </style>
+</head>
+<body>
+  
+   <header>
+    <h1>Teste 03</h1> 
+    <nav>
+        <a href="www.youtube.com">Link para o site</a>
+       </nav>
+   </header>
+   <main>
+     <section id="assunto">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur libero debitis, mollitia praesentium odit ea rerum amet expedita enim repellendus vero eius, dolores neque magni natus animi facere nihil?</p>
+       <section id="artigos">
+          <article>
+            <h2>PARTE PARA ARTIGOS</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ad tenetur natus non corporis, ipsa eaque enim dolorum id odit voluptatibus unde vel tempore in sit! Distinctio fuga vel maiores.</p>
+            <aside>
+             <p>Periférico ao artigo ex: Autor etc...</p>
+            </aside>
+            
+          </article>
+
+
+       </section>
+
+     </section>
+
+   </main>
+   <footer>
+     <p>Usado para rodapé do site</p>
+   </footer>
+  
+
+
+</body>
+</html>

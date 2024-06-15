@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS TEST</title>
+    <style>
+      body{
+        
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1{
+        text-align: center;
+        background-color: bisque;
+        border-radius: 5px;
+        
+      }
+      a{
+        color: cadetblue;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:visited{
+        color: tomato;
+      }
+      a:hover{
+        color: aquamarine;
+        text-decoration: underline;
+
+      }
+      a:active{
+        color: pink ;
+      }
+      .especial{
+        background-color: rgb(255, 237, 255);
+      }
+      .especial::before{
+        content: "⭤"
+
+;
+      }
+      .especial::after{
+        content: "⭤";
+      }
+
+    </style>
+</head>
+<body>
+    <h1>LINKS TESTES</h1>
+    <li><a href="https:www.google.com" target="_blank" class="especial">teste 01</a></li>
+    <li>teste 02</li>
+</body>
+</html>
